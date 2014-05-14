@@ -1,0 +1,496 @@
+[class^="fa-"],[class*=" fa-"] {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a, a:hover {
+  color:#425f9c;
+  cursor:pointer;
+}
+
+.container {
+  width: auto;
+  max-width: 800px;
+  padding: 0px;
+}
+
+.container .like-container {
+  background-image: url('../img/fbrewardbg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height:400px;
+}
+
+.container div.border {
+  border:0px solid #425f9c;
+}
+
+.container .row {
+  margin:10px 0px;
+}
+
+.container h1.like-header {
+  color:#425f9c;
+  font-size:3.6em;
+  margin-left: 48%;
+}
+
+.container div.like-start {
+  margin:40px 0px;
+  margin-left: 48%;
+}
+
+.container div.like-start div {
+  font-size:2em;
+}
+
+.container div.like-step {
+  font-size:1.4em;
+}  
+
+.container div.like-step div {
+  display:inline;
+  margin-left:30px;
+}
+
+.container div.like-step span {
+  font-size:2em;
+}  
+
+.container div.like-step strong {
+  color:#425f9c;
+  font-size:2em;
+  margin-right:10px;
+}    
+
+.container div#content {
+  margin:15px;  
+}
+
+.container div#content div.profile-activites-redemptions div.col-xs-6:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.container div#content div.profile-activites-redemptions h3 {
+  font-size:18px;
+  color:#425f9c;
+  margin: 0px;
+}  
+
+.container div#content div.title {
+  background-color:#425f9c;
+  color:#FFF;
+  font-size:24px;
+  margin:10px 0px;
+}
+
+ul.activitylist {
+  margin:10px 0px;
+  padding:0px;
+  list-style-type: none;
+}    
+
+ul.redemptionlist {
+  margin:10px 0px;
+  padding:0px;
+  list-style-type: none;
+} 
+
+ul.redemptionlist li.claim-reward { display: inline; margin-left: 10px; }
+
+ul.redemptionlist li.claim-reward img { 
+  width: 75px; 
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+ul.redemptionlist li.gimmie-redemption-row img { 
+  width: 100%; 
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+ul.redemptionlist li.gimmie-redemption-row .gimmie-reward-name {
+  font-size:16px;
+  font-weight:600;
+  margin-top:15px;
+}
+
+ul.redemptionlist li.gimmie-redemption-row .gimmie-reward-store {
+  font-size:14px;
+  margin-bottom:30px;
+}
+
+ul.redemptionlist li.gimmie-redemption-row .gimmie-expires-date {
+  font-size:14px;
+  color:#425f9c;
+}    
+
+ul.redemptionlist li.gimmie-redemption-row .gimmie-redeemed-date {
+  font-size:12px;
+  font-style:italic;
+}  
+
+ul.redemptionlist li.gimmie-redemption-row .claim-button {
+  background-color: #425f9c;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0px;
+  width: 100%;
+  margin-top:50px;
+}
+
+.container div#content div.profile-activites-redemptions ul.activitylist li {
+  margin:10px 0px;
+  padding:0px;
+} 
+
+.container div#content div.profile-activites-redemptions ul.activitylist li div.row, .container div#content div.profile-activites-redemptions ul.activitylist li div.row div {
+  margin:0px;
+  padding:0px; 
+}  
+
+.container div#content div.profile-activites-redemptions ul.activitylist li div.row div:first-child {
+  padding-right:10px;
+}  
+
+.container div#content hr {
+  background-color:#425f9c;
+  height:1px;
+}
+
+.container h2 {
+  color:#425f9c;
+  font-size:2.2em;
+  line-height:1.6em;
+}
+
+.container div#content span.point-container {
+  background-color:#425f9c;
+  color:#FFF;
+  padding:5px 10px;
+  border-radius:5px;
+}  
+
+.middle {
+  text-align:center;
+  display: block;
+}
+
+.right {
+  text-align:right;
+  display: block;
+}
+
+.nopadding {
+  padding:0px;
+}
+
+.btn-facebook {
+  background-color: #3b579d;
+  color: #fff;
+  padding-left: 55px;
+  background-image: url('../img/facebook.png');
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+}
+
+.btn-facebook:hover {
+  color: #fff;
+}  
+
+#reward-categories.nav>li>a {
+  display:inherit;
+}
+
+#reward-categories.nav-tabs>li {
+  float:none;
+  display:inline-block;
+}
+
+#reward-categories.nav-tabs>li.active>a, #reward-categories.nav-tabs>li.active>a:hover, #reward-categories.nav-tabs>li.active>a:focus {
+  color: #425f9c;
+  background-color: #fff;
+  border: 0px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+#reward-categories.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  text-align:center;
+}
+
+#reward-categories.nav-tabs>li>a {
+  color: #000;
+} 
+
+#reward-categories.nav-tabs>li>a:hover {
+  color: #425f9c;
+}   
+
+#reward-categories.nav-tabs>li>a:hover {
+  border-color: #fff;
+}
+
+#reward-categories.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #fff;
+}
+
+#reward-categories.nav-tabs>li>a {
+  border: 0px solid transparent;
+}
+
+
+.gimmie-items>li {
+ display: inline;
+ height: auto;
+ float: left;
+ padding: 0;
+ } 
+
+.gimmie-items .gimmie-item {
+ display: block;
+ width: 170px;
+ margin-bottom: 10px;
+ cursor: pointer;
+ top: 3px;
+ position: relative;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+.gimmie-items .gimmie-item .gimmie-reward {
+ background: #425f9c;
+ border: 1px solid #425f9c;
+ border-radius: 6px;
+ width: 158px;
+ margin: auto;
+ margin-top: 5px;
+ overflow: hidden;
+ position: relative;
+ }
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-item-image {
+ line-height: 0 !important;
+ height: 156px;
+ overflow: hidden;
+ }
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-item-image img {
+  height:156px;
+  } 
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-info .gimmie-store {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;    
+  }
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-info .gimmie-name {
+  font-size: 13px;
+  font-weight: bold;
+  width: 142px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+
+ .gimmie-items .gimmie-item .gimmie-featured-ribbon {
+ display: block;
+ position: absolute;
+ width: 64px;
+ height: 65px;
+ top: -5px;
+ left: 2px;
+ }
+
+.gimmie-items .gimmie-item .gimmie-fully-redeemed {
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ position: absolute;
+ }
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-info {
+ background-color: white;
+ padding: 6px 8px 4px 8px;
+ }
+
+.gimmie-items .gimmie-item .gimmie-reward .gimmie-points {
+ text-align: center;
+ padding: 5px;
+ color:#FFF;
+ }  
+
+ .gimmie-items .gimmie-item .gimmie-fully-redeemed {
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ position: absolute;
+ }  
+
+ .gimmie-items .gimmie-item .gimmie-fully-redeemed .gimmie-overlay-background {
+ width: 100%;
+ height: 100%;
+ opacity: 0.6;
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+ background-color: white;
+ position: absolute;
+ }
+ 
+ .gimmie-items .gimmie-item .gimmie-fully-redeemed .gimmie-overlay-border {
+ position: absolute;
+ top: 0;
+ left: 5px;
+ width: 160px;
+ height: 100%;
+ overflow: hidden;
+ }
+ 
+ .gimmie-items .gimmie-item .gimmie-fully-redeemed .gimmie-overlay-border .gimmie-message {
+ height: 30px;
+ width: 180px;
+ font-size: 14px;
+ font-weight: normal;
+ line-height: 30px;
+ text-align: center;
+ background-color: black;
+ color: white;
+ transform: rotate(-10deg);
+ -webkit-transform: rotate(-10deg);
+ -moz-transform: rotate(-10deg);
+ -ms-transform: rotate(-10deg);
+ -o-transform: rotate(-10deg);
+ position: absolute;
+ top: 100px;
+ left: -10px;
+ }        
+
+.loader {
+  width:30px;
+}
+
+.like-button {
+  background-image: url('../img/fblike.png');
+  background-repeat: no-repeat;
+  background-size: 58px 25px;
+  width: 58px;
+  height: 25px;
+  display: inline-block;
+}
+
+.gimmie-reward-image {
+  position: relative;
+}
+
+.gimmie-reward-image .gimmie-featured {
+position: absolute;
+top: -7px;
+left: -7px;
+}
+
+.gimmie-reward-image .gimmie-reward {
+display: block;
+width: 100%;
+overflow: hidden;
+}
+
+.content-info h1 {
+  color:#425f9c;
+  margin-bottom:0px;
+}
+
+.content-info h2.storename {
+  color:#000;
+  margin-top:0px;
+}
+
+#back-button {
+  background-color: #425f9c;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back-button span {
+  margin-right:10px;
+}
+
+#gimmie-redeem-button, #gimmie-use-button {
+  background-color:#425f9c;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0px;
+  width: 100%;  
+}
+
+.fullyredeem-but {
+  background-color:#000;
+  padding: 10px 16px;
+  line-height: 1.33;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0px;
+  width: 100%;  
+}
+
+.expiry-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  color:#425f9c;  
+  font-weight:600;
+  font-size:20px;  
+}
+
+#gimmie-description-header, #gimmie-fineprint-header {
+  color:#425f9c;
+}
+
+.footer-poweredby a {
+  float:right;
+  font-size: 12px;
+  color: #fa8b42;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAQCAYAAADNo/U5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDNCNTY5OEE2OTQ2MTFFMjgwRTVFMjlCOEE3ODRDN0MiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDNCNTY5OEI2OTQ2MTFFMjgwRTVFMjlCOEE3ODRDN0MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowM0I1Njk4ODY5NDYxMUUyODBFNUUyOUI4QTc4NEM3QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowM0I1Njk4OTY5NDYxMUUyODBFNUUyOUI4QTc4NEM3QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PniIk6EAAAKZSURBVHjaTFJNSFRRFP7OfW+aGWUwfaIyOj3TtFDIkiEUCmvVppULNRWDCol+XERFFLWICKE2RYtAIqLIRVmmtailUUSJTZoalcbojIT5O/7M+P5u976iOpvLOd/3nXvOxyHrZTuc2XHwxTjITO7lM9EDWJoKcyOZTuv8KwgE+ylbv8s9/heUkQ+mFUGFDEVlmI+3O1MjbUgaXnBZA3gyCSTGSvjcZC0Fy24gSz8rEEeF6gGmx87xichpmAAVbYMS3g9khoD5Sdj9neDjEa/EKZCbQHbxZZhdJ8OpNl8idQjcvN3IubHMZTirc+4rc1mXuORJPnPikWYspwKkl0FtvAUxCoxrNTAulrqvzGVd4pIn+QxTw2F3reoWwJsO655oOdwHLM2Af+pzc1l3cRmCz2CnNLk05ZWDL0yAxwYFSeQZWe7L48Pgqz8FXuaaA2dNY1C8q7AFuDwN+DMBTxooZyM8p15DqWkFX1oUI04AqYQQCBGxFYZA3qi02Pn4FOTLgLLvArBmgM/GoNZdB9tRC6ujAdarm0IgRIHgZ0Z6Zbccw/nQC/tNh+h+HOrh++CG6Kz64Gl9CKStBx96K6YQooKKbsb06h4qDPfA4bA6T8DuPgPKKoCytdbd2xl4BMxEIc+ANlT2stD2HgamGFRcfQxa3gDMNVhPrsJ6fum34ONjmHcOihObBXIL31HJzqMgxWDgcjvEWKiiDlooAp8w5Zuwuvc8zAdHgOQKKLjpPduyp07sFAO3wdyWXDjBlDGlqqmecvRR/iMK+9kVYEFYnasP0ebd9VCUKBz3gz8idxZLLOr/olS1NJCW/1U6SlpohEp31YuG3+HYf6n/RDJscbG+wCCramqm/PIuKgo3i4MelSP9H78EGADhxCWjSCKxtQAAAABJRU5ErkJggg==);
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+  display: inline-block;
+  height: 22px;
+  margin-right:20px;
+}
+
+.availablepoint {
+  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+}
+
